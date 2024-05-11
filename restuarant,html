@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS System</title>
+    <link rel="stylesheet" href="Restaurantdesign.css">
+</head>
+<body>
+	<h1>Restaurant POS System</h1>
+    <div class="container">
+        <div class="product-list">
+            <h2>Menu</h2>
+            <ul id="product-list">
+            </ul>
+        </div>
+        <div class="cart">
+            <h2>Cart</h2>
+            <ul id="cart-list">
+                <!-- cart items will be listed here -->
+            </ul>
+            <p id="total">Total: $0.00</p>
+            <button id="checkout">Checkout</button>
+        </div>
+    </div>
+
+    <script src="restuarant.js"></script>
+</body>
+</html>
