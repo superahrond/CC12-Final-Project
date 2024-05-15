@@ -1,0 +1,167 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header Styles */
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .header-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Navigation Styles */
+  
+  .nav {
+    background-color: #444;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  /* Main Content Styles */
+  
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .menu-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 10px;
+    width: calc(25% - 20px);
+  }
+  
+  .menu-item:hover {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item-image {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .menu-item-info {
+    padding: 10px;
+  }
+  
+  .menu-item-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item-price {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item-description {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  /* Order Summary Styles */
+  
+  .order-summary {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 10px;
+    width: calc(25% - 20px);
+  }
+  
+  .order-summary-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .order-summary-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .order-summary-item:last-child {
+    border-bottom: none;
+  }
+  
+  .order-summary-item-name {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .order-summary-item-price {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .order-summary-total {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Button Styles */
+  
+  .button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
